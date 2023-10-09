@@ -1,0 +1,13 @@
+.My_photo{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.about__wrapper {
+    text-align: center;
+}

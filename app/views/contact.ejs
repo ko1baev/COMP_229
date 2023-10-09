@@ -1,0 +1,43 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class="ontainer">
+<div class="jumbotron">
+    <section>
+        <h2>Contact Information</h2>
+        <p>You can reach me using the following contact information:</p>
+        <address>
+            <p><strong>Email:</strong> <a href="mailto:kolbaevdaniel5@gmail">kolbaevdaniel5@gmail</a></p>
+            <p><strong>Phone:</strong> +1 (437) 427-9406</p>
+        </address>
+    </section> 
+    <section>
+        <h2>Contact Form</h2>
+        <p>If you have any questions or feedback, you can use the contact form below:</p>
+        <form style="width: 300px;" action="/" method="">
+            <div class="mb-1" >
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-1">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="phone" class="form-control" id="phone"></input>
+              </div>
+              <div class="mb-1">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </section>
+</div>
+</main>
+
+  <%- include ('partials/bottom_nav.ejs') %>
+  <%- include ('partials/footer.ejs') %>
+
+
+
+   
